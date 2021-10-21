@@ -1,0 +1,106 @@
+<body>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="">NewsWeb</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="business">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="technology">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="sports">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="entertainment">Entertainment</a>
+          </li>
+          <li class="nav-item justify-content-end">
+            <a class="nav-link  " aria-current="page" routerLink="login">Login</a>
+          </li>
+          <li class="nav-item justify-content-end">
+            <a class="nav-link  " aria-current="page" routerLink="register">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NewsWeb</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="business">Business</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="technology">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="sports">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" routerLink="entertainment">Entertainment</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <li class="nav-item justify-content-end">
+            <a class="nav-link" aria-current="page" routerLink="register">Register</a>
+          </li>
+          <li class="nav-item justify-content-end">
+            <a class="nav-link" aria-current="page" routerLink="login">Login</a>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+  <div class="footer" style="height: 190px;">
+    <div class="container text-center mt-5">
+      <div class="wrapper mt-4 mb-4">
+        <div class="icon facebook">
+          <div class="tooltip">Facebook</div>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </div>
+        <div class="icon twitter">
+          <div class="tooltip">Twitter</div>
+          <span><i class="fab fa-twitter"></i></span>
+        </div>
+        <div class="icon instagram">
+          <div class="tooltip">Instagram</div>
+          <span><i class="fab fa-instagram"></i></span>
+        </div>
+        <div class="icon linkedin">
+          <div class="tooltip">Linkedin</div>
+          <span><i class="fab fa-linkedin"></i></span>
+        </div>
+      </div>
+      <div class="col-md-12 text-center mt-3">
+        <ul class="list-inline quicklinks">
+          <li class="list-inline-item"><a class="footer-menu mx-3" href="#">Login</a></li>
+          <li class="list-inline-item"><a class="footer-menu mx-3" href="#">About</a></li>
+          <li class="list-inline-item"><a class="footer-menu mx-3" href="#">Help</a></li>
+          <li class="list-inline-item"><a class="footer-menu mx-3" href="#">Terms</a></li>
+          <li class="list-inline-item"><a class="footer-menu mx-3" href="#">Privacy Policy</a></li>            
+          <li class="list-inline-item"><a class="footer-menu mx-3"routerLink="contact">Contact Us</a></li>            
+        </ul>
+      </div> 
+      <div class="col-md-12 text-center mt-3">            
+        <span class="copyright" style="color: #575555;">&copy; 2021 NewsWeb <a href="#" target="_blank"></a> </span>            
+      </div> 
+    </div>
+  </div>
+</body>

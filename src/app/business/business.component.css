@@ -1,0 +1,60 @@
+.card{
+    box-shadow: 7px 7px 10px rgba(55,84,170,.15),
+                -7px -7px 20px #fff,
+                1px 1px 4px rgba(255,255,255,.2);
+    background: #ebecf0;
+    color: black;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding-bottom: 20px;
+}
+.card-title {
+    color:  #3f3e3e;
+    font-weight: 600;
+}
+.button {
+    color: #bababa;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.author {
+    color: #858383;
+    font-size: 14px;
+    font-weight: 300;
+}
+.container:hover .card{
+    filter: blur(0px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+.container .card:hover{
+    filter: blur(0px);
+    transform: scale(0.95);
+    transition: transform 0.3s;
+    opacity: 1;
+}
+/* ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+::-webkit-scrollbar-track {
+    background:#ebecf0;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #ccc inset,
+                -5px -5px 10px #fff inset;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    box-shadow: -5px -5px 5px #ccc inset,
+                5px 5px 5px #f2f2f2 inset;
+} */
+/* .card{
+    overflow: hidden;
+}
+.card img {
+    transition: all 1s ease;
+}
+.card:hover img{
+    transform: scale(1.2);
+} */

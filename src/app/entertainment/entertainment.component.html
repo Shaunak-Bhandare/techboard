@@ -1,0 +1,20 @@
+<div class="container mt-5">
+    <div class="row">
+        <div *ngFor="let d of entertainmentDisplay" class="col-lg-4 mt-3 mb-3">
+            <div class="card" width="100%">
+                <img src="{{d.urlToImage}}" class="card-img-top" width="100%" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title mt-3 mb-3">{{d.title}}</h5>
+                  <p class="card-text">{{d.description}}</p>
+                  <p class="author">By {{d.author}}</p>
+                  <a href="{{d.url}}" class="btn btn-outline-dark mb-3" target="_blank">Read More</a>
+                  <div class="icons d-flex d-row justify-content-end">
+                    <a href="" class="button"><i class="far fa-share-square" ></i></a>
+                    <a href="" class="button"><i class="far fa-heart" ></i></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
